@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestaoAlojamentosTuristicos
 {
-    internal class Pessoa
+    internal abstract class Pessoa
     {
         #region Attributes
         private string nome;
