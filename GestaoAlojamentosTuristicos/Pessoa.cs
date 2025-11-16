@@ -36,31 +36,11 @@ namespace GestaoAlojamentosTuristicos
         #endregion
 
         #region Properties
-        public string Nome
-        {
-            get { return nome; }
-            set { nome = value; }
-        }
-        public DateTime DataNascimento
-        {
-            get { return dataNascimento; }
-            set { dataNascimento = value; }
-        }
-        public string NumeroIdentificacao
-        {
-            get { return numeroIdentificacao; }
-            set { numeroIdentificacao = value; }
-        }
-        public string Telefone
-        {
-            get { return telefone; }
-            set { telefone = value; }
-        }
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
+        public string Nome { get; set; }
+        public DateTime DataNascimento { get; set; }
+        public string NumeroIdentificacao { get; set; }
+        public string Telefone { get; set; }
+        public string Email { get; set; }
         #endregion
 
         #region Overrides
@@ -88,13 +68,6 @@ namespace GestaoAlojamentosTuristicos
             }
 
             return idade;
-        }
-        #endregion
-
-        #region Destructor
-        ~Pessoa()
-        {
-            // Código de limpeza
         }
         #endregion
     }
