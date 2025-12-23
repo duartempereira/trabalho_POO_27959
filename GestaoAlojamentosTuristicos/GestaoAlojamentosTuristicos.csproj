@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alojamento.cs" />
+    <Compile Include="Apartamento.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="GestorAlojamentos.cs" />
+    <Compile Include="GestorClientes.cs" />
+    <Compile Include="GestorReservas.cs" />
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quarto.cs" />
+    <Compile Include="Reserva.cs" />
+    <Compile Include="Vivenda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

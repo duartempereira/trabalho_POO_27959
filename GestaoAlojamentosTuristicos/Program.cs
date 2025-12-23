@@ -10,6 +10,9 @@ namespace GestaoAlojamentosTuristicos
     {
         static void Main(string[] args)
         {
+        
+
+
         }
     }
 }
